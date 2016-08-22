@@ -1,0 +1,75 @@
+name: isis
+channels:
+- conda-forge
+- defaults
+- jlaura
+dependencies:
+- conda-forge::ca-certificates=2016.8.2=3
+- conda-forge::certifi=2016.8.2=py35_0
+- conda-forge::curl=7.49.1=1
+- conda-forge::expat=2.1.0=2
+- conda-forge::freexl=1.0.2=1
+- conda-forge::geos=3.4.2=2
+- conda-forge::giflib=5.1.2=1
+- conda-forge::h5py=2.6.0=np110py35_6
+- conda-forge::hdf4=4.2.12=0
+- conda-forge::hdf5=1.8.17=2
+- conda-forge::icu=56.1=4
+- conda-forge::jpeg=9b=0
+- conda-forge::json-c=0.12=0
+- conda-forge::kealib=1.4.6=3
+- conda-forge::libdap4=3.18.0=2
+- conda-forge::libiconv=1.14=3
+- conda-forge::libnetcdf=4.4.1=0
+- conda-forge::libpng=1.6.24=0
+- conda-forge::libspatialite=4.3.0a=9
+- conda-forge::libtiff=4.0.6=6
+- conda-forge::libuuid=1.0.3=1
+- conda-forge::libxml2=2.9.4=0
+- conda-forge::ncurses=5.9=8
+- conda-forge::openjpeg=2.1.0=6
+- conda-forge::openssl=1.0.2h=2
+- conda-forge::pandas=0.18.1=np110py35_1
+- conda-forge::pip=8.1.2=py35_0
+- conda-forge::postgresql=9.5.4=2
+- conda-forge::proj.4=4.9.2=0
+- conda-forge::protobuf=3.0.0b2=py35_0
+- conda-forge::python=3.5.2=2
+- conda-forge::python-dateutil=2.5.3=py35_0
+- conda-forge::pytz=2016.6.1=py35_0
+- conda-forge::pyyaml=3.11=py35_0
+- conda-forge::readline=6.2=0
+- conda-forge::setuptools=25.1.6=py35_0
+- conda-forge::six=1.10.0=py35_0
+- conda-forge::sqlite=3.13.0=1
+- conda-forge::tk=8.5.19=0
+- conda-forge::wheel=0.29.0=py35_0
+- conda-forge::xerces-c=3.1.4=2
+- conda-forge::xmltodict=0.10.2=py35_0
+- conda-forge::xz=5.2.2=0
+- conda-forge::yaml=0.1.6=0
+- conda-forge::zlib=1.2.8=3
+- jlaura::plio=0.1.0=py35_0
+- jlaura::pvl=0.2.0=py35_0
+- krodriguez::gdal=2.1.1=np110py35_1
+- mkl=11.3.3=0
+- numpy=1.10.4=py35_2
+- sqlalchemy=1.0.13=py35_0
+- pip:
+  - certifi==2016.8.2
+  - gdal==2.1.1
+  - h5py==2.6.0
+  - pandas==0.18.1
+  - pip==8.1.2
+  - plio==0.1.0
+  - protobuf==3.0.0b2
+  - pvl==0.2.0
+  - python-dateutil==2.5.3
+  - pytz==2016.6.1
+  - pyyaml==3.11
+  - setuptools==25.1.6
+  - six==1.10.0
+  - wheel==0.29.0
+  - xmltodict==0.10.2
+prefix: /Users/kelvinrodriguez/anaconda3/envs/isis
+

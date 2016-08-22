@@ -1,0 +1,39 @@
+Object = IsisCube
+  Object = Core
+    Format      = Tile
+
+    Group = Dimensions
+      Samples = 640
+      Lines   = 768
+      Bands   = 1
+    End_Group
+
+    Group = Pixels
+      Type       = UnsignedByte
+      Base       = 0.0
+      Multiplier = 1.0
+    End_Group
+  End_Object
+
+  Group = Archive
+    DataSetId            = MGS-M-MOC-NA/WA-2-DSDP-L0-V1.0
+    ProducerId           = MGS_MOC_TEAM
+    ProductId            = AB-1-024/01
+    InstrumentId         = MOC-WA
+    TargetName           = MARS
+    MissionPhaseName     = AB-1
+    RationaleDescription = "OLYMPUS MONS SPECIAL RED WIDE ANGLE"
+  End_Group
+End_Object
+
+Object = Label
+End_Object
+
+Object = History
+  Name      = IsisCube
+End_Object
+
+Object = OriginalLabel
+  Name      = IsisCube
+End_Object
+End
