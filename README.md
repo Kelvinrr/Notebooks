@@ -1,2 +1,2 @@
 # Notebooks
-Just random collection of my notebooks
+Just random collection of code snippets
