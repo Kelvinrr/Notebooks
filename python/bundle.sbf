@@ -1,0 +1,3 @@
+target = bundle
+sources = sipbundlecmodule.cpp sipbundleIsisBundleAdjust.cpp sipbundleIsis.cpp
+headers = sipAPIbundle.h
